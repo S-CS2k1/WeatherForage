@@ -33,7 +33,7 @@ function App() {
   const Auth = async ()=>{
         const res = await axios({
             method : "post",
-            url : "/auth",
+            url : "https://weatherfoarge.herokuapp.com/auth",
             headers : {
                 token : `${cookie}`
             }

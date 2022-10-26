@@ -16,7 +16,7 @@ const Login = (prop)=>{
         else{
             axios({
                 method : "post",
-                url : "/login",
+                url : "https://weatherfoarge.herokuapp.com/login",
                 headers : {},
                 data : {
                     email : `${email}`,
